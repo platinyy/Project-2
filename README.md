@@ -9,7 +9,7 @@
 
 ### **_Description_**
 
-Wine list application that allows the wine director of the restaurant to add , remove, and update the winelist , as well as add description of each wine. Customers can search and pick the wines that they like on the winelist , and can they can also rate or leave a comment about the wine that they consumed at the end of the dinner.This app can also serve the other part of team of the restaurant to educate themself by reading the description of every wine on the winelist.
+Wine list application that allows the wine director of the restaurant to add , remove, and update the winelist , as well as add description of each wine. Customers can search and pick the wines that they like on the winelist , and they can also rate or leave a comment about the wine that they consumed at the end of the dinner.This app can also serve the other part of the restaurant's team to educate themself by reading the description of every wine on the winelist.
 ---
 ### **_Technologies Used_**
 
