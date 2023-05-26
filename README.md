@@ -26,7 +26,7 @@ Wine list application that allows the wine director of the restaurant to add , r
 
 ##### 
 
-##### Wireframing is used to draw the project [here](https://drive.google.com/file/d/1w0GvB9okQL_69BBgbapDW1CEEDzFscEQ/view?usp=sharing).
+##### Wireframing is used to draw the project [here](https://drive.google.com/file/d/1KOz8Ta_fSnRQVTw2og4rRg9ChayFgXoO/view?usp=sharing).
 
 ##### The project itself was deployed and can be viewed [here](https://lucid.app/lucidchart/a25b6c30-9188-4204-943b-0e440b5936c5/edit?viewport_loc=-175%2C-21%2C3005%2C1558%2C0_0&invitationId=inv_c9d9e752-604a-441b-b330-d01ee9b219a9).
 
