@@ -9,7 +9,8 @@
 
 ### **_Description_**
 
-Wine list application that allows the wine director of the restaurant to add , remove, and update the winelist , as well as add description of each wine. Customers can search and pick the wines that they like on the winelist , and they can also rate or leave a comment about the wine that they consumed at the end of the dinner.This app can also serve the other part of the restaurant's team to educate themself by reading the description of every wine on the winelist.
+Food Recipe app, user can add food recipes and read and like other users recipes.
+
 ---
 ### **_Technologies Used_**
 
@@ -26,12 +27,11 @@ Wine list application that allows the wine director of the restaurant to add , r
 
 ##### 
 
-##### Wireframing is used to draw the project [here](https://drive.google.com/file/d/1KOz8Ta_fSnRQVTw2og4rRg9ChayFgXoO/view?usp=sharing).
+##### Wireframing is used to draw the project [here]https://drive.google.com/file/d/1gdYvHI0zuzoZfYshRnn9xK5KgP4Zilbg/view?usp=sharing).
 
-##### The project itself was deployed and can be viewed [here](https://lucid.app/lucidchart/a25b6c30-9188-4204-943b-0e440b5936c5/edit?viewport_loc=-175%2C-21%2C3005%2C1558%2C0_0&invitationId=inv_c9d9e752-604a-441b-b330-d01ee9b219a9).
+##### The project itself was deployed and can be viewed [here](https://lucid.app/lucidchart/1b56f03d-fba9-4972-9cd6-a2434cf82895/edit?viewport_loc=-11%2C-11%2C1963%2C1017%2C0_0&invitationId=inv_6ead6509-36ba-42d7-a780-1dee7a38f1c1).
 
-Customer can order many wines.Wine belongs to one customer
-Many-One
+
 
 ---
 
