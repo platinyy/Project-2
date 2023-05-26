@@ -29,7 +29,7 @@ Food Recipe app, user can add food recipes and read and like other users recipes
 
 ##### Wireframing is used to draw the project [here](https://drive.google.com/file/d/1gdYvHI0zuzoZfYshRnn9xK5KgP4Zilbg/view?usp=sharing).
 
-##### The project itself was deployed and can be viewed [here](hhttps://lucid.app/lucidchart/1b56f03d-fba9-4972-9cd6-a2434cf82895/edit?viewport_loc=-105%2C-76%2C1963%2C1018%2C0_0&invitationId=inv_6ead6509-36ba-42d7-a780-1dee7a38f1c1).
+##### The project itself was deployed and can be viewed [here](https://lucid.app/lucidchart/1b56f03d-fba9-4972-9cd6-a2434cf82895/edit?viewport_loc=-105%2C-76%2C1963%2C1018%2C0_0&invitationId=inv_6ead6509-36ba-42d7-a780-1dee7a38f1c1).
 
 
 
