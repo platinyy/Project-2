@@ -16,9 +16,9 @@ Wine list , allows you to add delete and update winelist.
 - Node js
 - Express js
 - Mongoose Db
-  - JavaScript
-  - Html
-  -CSS 
+- JavaScript
+- Html
+- CSS 
 
 ---
 
