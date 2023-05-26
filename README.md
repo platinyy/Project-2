@@ -30,6 +30,9 @@ Wine list application that allows the wine director of the restaurant to add , r
 
 ##### The project itself was deployed and can be viewed [here](https://lucid.app/lucidchart/a25b6c30-9188-4204-943b-0e440b5936c5/edit?viewport_loc=-175%2C-21%2C3005%2C1558%2C0_0&invitationId=inv_c9d9e752-604a-441b-b330-d01ee9b219a9).
 
+Customer can order many wines.Wine belongs to one customer
+Many-One
+
 ---
 
 
