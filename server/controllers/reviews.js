@@ -16,6 +16,12 @@ async function deleteReview(req,res){
 
 async function create(req, res){
     const recipe = await Recipe.findById(req.params.id);
+    console.log(req.session)
+    console.log(req.user, "user")
+    req.body.user = req.user._id;
+    req.body.userName = req.user.name;
+    req.body.userAvatar = req.user.avatar;
+
     recipe.reviews.push(req.body);
     console.log(recipe)
     try{
@@ -25,3 +31,18 @@ async function create(req, res){
     }
     res.redirect(`/recipe/${recipe._id}`);
 }
+/*
+function create(req, res) {
+  req.body.user = req.user._id
+  req.body.userName = req.user.name
+  req.body.userAvatar = req.user.avatar
+  recipe.reviews.create(req.body)
+  .then(recipe => {
+    res.redirect("/recipe/${recipe._id}")
+  })
+  .catch(err => {
+    console.log(err)
+    res.redirect("/recipe")
+  })
+}
+*/

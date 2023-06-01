@@ -6,7 +6,7 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const passport = require('passport');
 const methodOverride = require('method-override')
-
+var reviewsRouter = require('./server/routes/reviews');
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -19,8 +19,8 @@ app.use(expressLayouts);
 
 app.use(methodOverride('_method'));
 
-var reviewsRouter = require('./server/routes/reviews');
-app.use('/', reviewsRouter);
+
+
 app.use(cookieParser('CookingBlogSecure'));
 app.use(session({
   secret: 'CookingBlogSecretSession',
@@ -34,7 +34,7 @@ app.use(function(req, res, next){
     res.locals.user = req.user;
     next();
 })
-
+app.use('/', reviewsRouter);
 app.use(flash());
 app.use(fileUpload());
 
