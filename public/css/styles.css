@@ -68,10 +68,11 @@
     margin-bottom: 2rem;
   }
   th, td{
-    border : 1px solid black;
+   
     padding:8px;
   }
-  .tbstyle{
-    display: block;
-    margin-left:640px;
+  
+  .btn2{
+   color:red;
   }
+  

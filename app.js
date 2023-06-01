@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const flash = require('connect-flash');
 const session = require('express-session');
 const passport = require('passport');
+const methodOverride = require('method-override')
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -15,6 +16,8 @@ require('./server/models/passport');
 app.use(express.urlencoded( { extended: true } ));
 app.use(express.static('public'));
 app.use(expressLayouts);
+
+app.use(methodOverride('_method'));
 
 var reviewsRouter = require('./server/routes/reviews');
 app.use('/', reviewsRouter);
