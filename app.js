@@ -16,6 +16,8 @@ app.use(express.urlencoded( { extended: true } ));
 app.use(express.static('public'));
 app.use(expressLayouts);
 
+var reviewsRouter = require('./server/routes/reviews');
+app.use('/', reviewsRouter);
 app.use(cookieParser('CookingBlogSecure'));
 app.use(session({
   secret: 'CookingBlogSecretSession',

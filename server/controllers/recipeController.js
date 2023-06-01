@@ -66,6 +66,10 @@ exports.exploreRecipe = async(req, res) => {
   }
 }
 
+
+
+
+
 /**
  * POST /search
  * Search 
@@ -168,7 +172,7 @@ exports.submitRecipeOnPost = async(req, res) => {
     res.redirect('/submit-recipe');
   }
 }
-
+/*
 async function insertDymmyCategoryData(){
   try{
       await Category.insertMany([
@@ -201,18 +205,19 @@ async function insertDymmyCategoryData(){
       console.log('error')
   }
 }
-
-
 /*
- async function deleteRecipe(){
-   try {
-     await Recipe.deleteOne({ name: 'Cheeseburger' });
-   } catch (error) {
-     console.log(error);
-   }
- }
- deleteRecipe();
-*/
+
+// Delete Recipe
+// async function deleteRecipe(){
+//   try {
+//     await Recipe.deleteOne({ name: 'New Recipe From Form' });
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// deleteRecipe();
+
+
 // Update Recipe
 // async function updateRecipe(){
 //   try {

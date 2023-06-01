@@ -1,5 +1,19 @@
 const mongoose = require('mongoose');
 
+const reviewSchema = new mongoose.Schema({
+  content: {
+    type: String,
+    required: true
+  },
+  rating: {
+    type: Number,
+    min: 1,
+    max: 5,
+    default: 5
+  }
+}, {
+  timestamps: true
+});
 const recipeSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -15,8 +29,10 @@ const recipeSchema = new mongoose.Schema({
   },
   ingredients: {
     type: Array,
-    required: 'This field is required.'
+    required: 'This field is required.',
+    
   },
+  reviews: [reviewSchema],
   category: {
     type: String,
     enum: ['Thai', 'American', 'Chinese', 'Mexican', 'Indian'],
@@ -27,6 +43,8 @@ const recipeSchema = new mongoose.Schema({
     required: 'This field is required.'
   },
 });
+
+
 
 recipeSchema.index({ name: 'text', description: 'text' });
 // WildCard Indexing
