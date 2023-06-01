@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const recipeController = require('../controllers/recipeController');
-
+const passport = require('passport');
 /**
  * App Routes 
 */
@@ -14,5 +14,27 @@ router.get('/explore-latest', recipeController.exploreLatest);
 router.get('/explore-random', recipeController.exploreRandom);
 router.get('/submit-recipe', recipeController.submitRecipe);
 router.post('/submit-recipe', recipeController.submitRecipeOnPost);
+
+router.get('/auth/google', passport.authenticate(
+    'google',
+    {
+        scope: ['profile', 'email'],
+        // prompt: 'select_account'
+    }
+));
+
+router.get('/oauth2callback', passport.authenticate(
+    'google',
+    {
+        successRedirect:'/',
+        failureRedirect: '/'
+    }
+));
+
+router.get('/logout', function(req,res){
+    req.logout(function(){
+        res.redirect('/');
+    });
+});
 
 module.exports = router;

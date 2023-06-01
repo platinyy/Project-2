@@ -66,11 +66,6 @@ exports.exploreRecipe = async(req, res) => {
   }
 }
 
-
-
-
-
-
 /**
  * POST /search
  * Search 
@@ -208,17 +203,16 @@ async function insertDymmyCategoryData(){
 }
 
 
-// Delete Recipe
-// async function deleteRecipe(){
-//   try {
-//     await Recipe.deleteOne({ name: 'New Recipe From Form' });
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-// deleteRecipe();
-
-
+/*
+ async function deleteRecipe(){
+   try {
+     await Recipe.deleteOne({ name: 'Cheeseburger' });
+   } catch (error) {
+     console.log(error);
+   }
+ }
+ deleteRecipe();
+*/
 // Update Recipe
 // async function updateRecipe(){
 //   try {
