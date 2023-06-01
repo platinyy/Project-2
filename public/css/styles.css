@@ -35,7 +35,9 @@
     border-radius: 8px;
   }
   
-  
+  .category__img--large {
+    height: 200px;
+  }
   
   .category__img img {
     width: 100%;
