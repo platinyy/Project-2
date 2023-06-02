@@ -173,6 +173,9 @@ exports.submitRecipeOnPost = async(req, res) => {
     res.redirect('/submit-recipe');
   }
 }
+
+
+//Ignore the code below
 /*
 async function insertDymmyCategoryData(){
   try{
