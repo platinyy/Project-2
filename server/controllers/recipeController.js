@@ -58,7 +58,6 @@ exports.exploreCategoriesById = async(req, res) => {
 */
 exports.exploreRecipe = async(req, res) => {
   try {
-    console.log(req.user)
     let recipeId = req.params.id;
     const recipe = await Recipe.findById(recipeId);
     res.render('recipe', { title: 'Cooking Blog - Recipe', recipe } );
@@ -140,7 +139,6 @@ exports.submitRecipeOnPost = async(req, res) => {
     let newImageName;
 
     if(!req.files || Object.keys(req.files).length === 0){
-      console.log('No Files where uploaded.');
     } else {
 
       imageUploadFile = req.files.image;

@@ -21,11 +21,11 @@ async function create(req, res){
     req.body.userAvatar = req.user.avatar;
 
     recipe.reviews.push(req.body);
-    console.log(recipe)
+   
     try{
         await recipe.save();
     }catch(err){
-        console.log(err);
+        
     }
     res.redirect(`/recipe/${recipe._id}`);
 }
